@@ -4,7 +4,7 @@
 1. Public and private subnets
 2. A public and private EC2 Instance running Ubuntu 22.04
 3. Internet and NAT gateway, and S3 endpoint
-4. All associated routing tables and associations.
+4. All required routing tables and associations.
 
 # BEFORE YOU BEGIN!!!
 ## Be sure to execute the "prepare-ssh-keys.bash" script before running Terraform.
