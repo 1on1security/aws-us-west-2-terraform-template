@@ -8,7 +8,7 @@
 
 # BEFORE YOU BEGIN!!!
 ## Be sure to execute the "prepare-ssh-keys.bash" script before running Terraform.
-The script generates a fresh SSH keypair, and prepares a bash file called as "user_data" for each server, ensuring the public key is deployed on each server. <b>KEYS/aws.template-key is your PRIVATE key, allowing access to both servers.  Safeguard it accordingly.</b>
+The script generates a fresh SSH keypair and prepares a bash file called as "user_data" for each server, ensuring the public key is deployed on each server. <b>KEYS/aws.template-key is your PRIVATE key, allowing access to both servers.  Safeguard it accordingly!</b>
 
 ### The template was built and tested from within WSL2 (Ubuntu 22.04) on a Windows 11 Pro workstation.
 
@@ -18,7 +18,7 @@ As the name implies this is built for the us-west-2 aws region.  With some basic
 ### Follow instructions for installing the AWS CLI on your Linux system.
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 
-`sudo snap install aws-cli --classic` is always an option.
+`sudo snap install aws-cli --classic` is always an option since Ubuntu has decided snap is the way to go.
 
 ### Follow instructions for installing Terraform on your Ubuntu instance
 https://developer.hashicorp.com/terraform/install
@@ -31,7 +31,8 @@ https://developer.hashicorp.com/terraform/install
 
 <hr>
 
-## Short, sweet and easy
+## After that it's Short, sweet and easy
+Clone the repo, change into the directory, and prepare ssh keys.  Then three terraform commands and you're up and running!
 
 `git clone` <br>
 `cd us-west-2-template` <br>
