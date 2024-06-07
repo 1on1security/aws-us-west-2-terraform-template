@@ -40,3 +40,15 @@ Clone the repo, change into the directory, and prepare ssh keys.  Then three ter
 `terraform init` <br>
 `terraform plan` <br>
 `terraform deploy` <br>
+
+## So what did this actually do?
+We can visualize the structure of the resources and their associations with:
+`terraform graph -type=plan`
+This generates inormaton in the DOT language, a machine-readable graph description language.  We an pipe that information through the Graphviz <i>dot</i> command to present the data as an image.
+
+`terraform graph -type=plan | dot -Tpng > img/graph.png`
+
+If you have ImageMagick installed you can view the graph with:
+`display img/graph.png`
+
+![Terraform Graph](img/graph.png)
