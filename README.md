@@ -13,6 +13,7 @@ The script generates a fresh SSH keypair, and prepares a bash file called as "us
 ### The template was built and tested from within WSL2 (Ubuntu 22.04) on a Windows 11 Pro workstation.
 
 ### DEPENDENCIES
+As the name implies this is built for the us-west-1 aws region.  With some basic tweaking of "terraform.auto.tfvars" this could be used in another region without much fuss.  The region and availability zones would need to be edited, and the Ubuntu LTS 22.04 AMI image is specific to the region as well.  Searching for a new one for an alternate region is fairly easy.
 
 ### Follow instructions for installing the AWS CLI on your Linux system.
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
