@@ -51,4 +51,4 @@ This generates inormaton in the DOT language, a machine-readable graph descripti
 If you have ImageMagick installed you can view the graph with:
 `display img/graph.png`
 
-<a href="https://raw.githubusercontent.com/1on1security/aws-us-west-2-terraform-template/main/img/graph.png">![Terraform Graph](img/graph.png)</a>
+<a href="https://raw.githubusercontent.com/1on1security/aws-us-west-2-terraform-template/main/img/graph.png" target="_blank">![Terraform Graph](img/graph.png)</a> (You can also click this image to open in a new tab full screen.)
