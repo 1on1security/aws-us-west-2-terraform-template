@@ -31,7 +31,7 @@ https://developer.hashicorp.com/terraform/install
 
 <hr>
 
-## After that it's Short, sweet and easy
+## After that it's Short, Sweet and Easy
 Clone the repo, change into the directory, and prepare ssh keys.  Then three terraform commands and you're up and running!
 
 `git clone` <br>
