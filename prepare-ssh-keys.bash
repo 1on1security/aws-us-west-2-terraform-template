@@ -8,11 +8,11 @@ private_serverScriptFile=bash/private_server.bash
 echo "This script is meant to be executed in the root folder of the gitlab project."
 read -n 1 -s -r -p "Press any key to continue..."
 
-if [ -d "KEYS" ]; then
+if [ ! -d "KEYS" ]; then
     mkdir KEYS
 fi
 
-if [ -d "bash" ]; then
+if [ ! -d "bash" ]; then
     mkdir bash
 fi
 
