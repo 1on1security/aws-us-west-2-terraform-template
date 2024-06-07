@@ -34,7 +34,7 @@ https://developer.hashicorp.com/terraform/install
 ## After that it's Short, Sweet and Easy
 Clone the repo, change into the directory, and prepare ssh keys.  Then three terraform commands and you're up and running!
 
-`git clone` <br>
+`git clone https://github.com/1on1security/aws-us-west-2-terraform-template.git` <br>
 `cd us-west-2-template` <br>
 `./prepare-ssh-keys.bash` <br>
 `terraform init` <br>
