@@ -1,5 +1,5 @@
 # aws-us-west-2-terraform-template
-## Yet Another Terraform template to create a VPC with:
+## Yet Another Terraform template to create a VPC including:
 
 1. Public and private subnets
 2. A public and private EC2 Instance running Ubuntu 22.04
